@@ -1,0 +1,92 @@
+.demo-layout-transparent {
+  background: url('../assets/demos/transparent.jpg') center / cover;
+}
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+  /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+  color: white;
+}
+.Cimage {
+  height:100%;
+  width:100%;
+}
+.demo-card-wide {
+  margin:none;
+}
+
+/*TABS*/
+.mdl-tabs__panel {
+  text-align: center;
+}
+
+.mdl-tabs__panel ul {
+  list-style-type: none;
+}
+
+.material-icons, .mdl-layout-title,
+.mdl-layout__header-row .mdl-navigation__link {
+  color:#757575;
+}
+
+.mdl-layout-title {
+  font-family: 'Bree Serif', serif;
+}
+
+.mdl-tabs.is-upgraded .mdl-tabs__tab.is-active {
+  color:#ed7a66;
+}
+.mdl-tabs.is-upgraded .mdl-tabs__tab.is-active:after {
+  background: #d6df93;
+}
+
+/*Title colors*/
+#leftmenu {
+  background-color: #d6df93;
+}
+#regmenu {
+  color:#d6df93;
+}
+#footermenu {
+  color:white;
+}
+
+/*ICON COLORS*/
+#icon1 {
+  color:#49a5a9;
+  font-size: 32px;
+}
+#icon2 {
+ color:#ed7a66;
+ font-size: 32px;
+}
+#icon3 {
+ color:#d6df93;
+ font-size: 32px;
+}
+
+#sample6{
+  color:#757575;
+}
+
+/* Navigation */
+.mdl-navigation__link:hover {
+  border-bottom: 5px solid #d6df93;
+}
+.mdl-layout__header-row, .mdl-layout__drawer,
+.mdl-mini-footer {
+  font-family: 'Bree Serif', serif;
+}
+.mdl-layout__header {
+  background-color: white;
+}
+
+/*Home page cards*/
+
+
+
+/* FOOTER */
+
+.mdl-mini-footer {
+  background-color: #d6df93;
+}
