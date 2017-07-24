@@ -63,8 +63,7 @@
 .demo-card-square.mdl-card {
   width: 320px;
   height: 320px;
-  float: left;
-  margin: 1rem;
+  margin: auto;
   position: relative;
 }
 
