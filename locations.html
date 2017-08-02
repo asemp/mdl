@@ -11,11 +11,12 @@
   <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
   <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
   <link href="styles.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
   <!-- CSS  -->
 
 </head>
 
-<body class="locationbody">
+<body>
   <!-- NAV BAR -->
   <!-- Always shows a header, even in smaller screens. -->
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
@@ -27,10 +28,23 @@
         <div class="mdl-layout-spacer"></div>
         <!-- Navigation. We hide it in small screens. -->
         <nav class="mdl-navigation mdl-layout--large-screen-only">
-          <a class="mdl-navigation__link" href="">ABOUT</a>
-          <a class="mdl-navigation__link" href="">SERVICES</a>
-          <a class="mdl-navigation__link" href="">LOCATIONS</a>
+          <a class="mdl-navigation__link" href="index.html">ABOUT</a>
+          <a class="mdl-navigation__link" href="services.html">SERVICES</a>
+          <a class="mdl-navigation__link" href="locations.html">LOCATIONS</a>
+          <a class="mdl-navigation__link" href="test.html">TEST</a>
+
         </nav>
+        <form action="#">
+          <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
+            <label class="mdl-button mdl-js-button mdl-button--icon" for="sample6">
+                <i class="material-icons">search</i>
+              </label>
+            <div class="mdl-textfield__expandable-holder">
+              <input class="mdl-textfield__input" type="text" id="sample6">
+              <label class="mdl-textfield__label" for="sample-expandable">Expandable Input</label>
+            </div>
+          </div>
+        </form>
       </div>
     </header>
     <div class="mdl-layout__drawer">
@@ -38,15 +52,17 @@
       <nav class="mdl-navigation">
         <a class="mdl-navigation__link" href=""><i id ="icon1" class="material-icons">person_outline</i> ABOUT</a>
         <a class="mdl-navigation__link" href=""><i id ="icon2" class="material-icons">style</i> SERVICES</a>
-        <a class="mdl-navigation__link" href=""><i id ="icon3" class="material-icons">location_on</i> LOCATIONS</a>
+        <a class="mdl-navigation__link" href="locations.html"><i id ="icon3" class="material-icons">location_on</i> LOCATIONS</a>
       </nav>
       <div class="col s12 m4">
-        <div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--2dp">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3010.572009624744!2d-73.94039568458577!3d41.0127399793003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2eea7af56d03f%3A0x468684bebc89f77c!2s15+Volvo+Dr%2C+Rockleigh%2C+NJ+07647!5e0!3m2!1sen!2sus!4v1500493108667"
-            width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> </div>
+        <!-- <div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--2dp">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3010.5911564451912!2d-73.9398766845858!3d41.0123209793004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2eea70a770c6f%3A0x4b6adb39b325199e!2s15+Volvo+Dr%2C+Rockleigh%2C+NJ+07647!5e0!3m2!1sen!2sus!4v1500515109834"
+            width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> </div> -->
+
       </div>
     </div>
   </div>
+
 
   <!-- Page content -->
   <div id="asd">
