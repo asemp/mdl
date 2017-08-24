@@ -77,7 +77,9 @@
 
 .demo-card-square > .mdl-card__title {
   color: #fff;
-  background: #49a5a9;
+  background: url ('http://i.imgur.com/BqwU0Ca.png');
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .demo-card-square > .mdl-card__accent {
@@ -96,7 +98,8 @@
 }
 
 #tabcard3 {
-  background: #d6df93;
+  background-image: url("http://i.imgur.com/I5PSm9P.png") ;
+  background-color: #d6df93;
 }
 
 /*Title*/
