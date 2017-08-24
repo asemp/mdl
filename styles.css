@@ -220,6 +220,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4df5b', end
   background-color: #f5f5f5;
 }
 
+.inithidden {
+  display:none;
+}
+
+.mdl-button-close {
+  display: none;
+}
 
 /*@media screen and (min-width: 1919px) {
   #block2{
